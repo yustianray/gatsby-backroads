@@ -5,7 +5,7 @@ export default class tours extends Component {
     render() {
         return (
             <Layout>
-                Hello from tours page
+                hello from tours page
             </Layout>
         )
     }
