@@ -9,12 +9,15 @@ const Contact = () => {
             <div className={styles.center}>
                 <form className={styles.form}>
                     <div>
+                        <label htmlFor="name">name</label>
                         <input type="text" name="name" id="name" className={styles.formControl} placeholder="name"/>
                     </div>
                     <div>
+                        <label htmlFor="email">email</label>
                         <input type="email" name="email" id="email" className={styles.formControl} placeholder="email@email.com"/>
                     </div>
                     <div>
+                        <label htmlFor="message">message</label>
                         <textarea name="message" id="message" rows="10" className={styles.formControl} placeholder="hello there"/>
                     </div>
                     <div >
