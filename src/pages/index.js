@@ -6,6 +6,7 @@ import About from "../components/Home/About"
 import Services from "../components/Home/Services"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
+import Featuredtours from "../components/Home/Featuredtours"
 
 export default ({ data }) => (
     <Layout>
@@ -18,6 +19,7 @@ export default ({ data }) => (
         </StyledHero>
         <About />
         <Services />
+        <Featuredtours />
     </Layout>
 )
 
