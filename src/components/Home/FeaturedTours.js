@@ -39,7 +39,6 @@ const FeaturedTours = () => {
                     return <Tour key={node.contentful_id} tour={node} />
                 })}
             </div>
-            <Tour />
             <AniLink fade to="/tours" className="btn-primary">
                 all tours
             </ AniLink>
