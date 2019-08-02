@@ -14,9 +14,8 @@ module.exports = {
     description: "Explore awesome worldwide tours & discover what makes each of them unique. Forget your daily routine & say yes to adventure",
     author: "@yustianray",
     twitterUsername: "@yustianray",
-    image: "/defaulBcg.jpeg",
+    image: "defaulBcg.jpeg",
     siteUrl: "https://distracted-hugle-8c9f23.netlify.com"
-
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
