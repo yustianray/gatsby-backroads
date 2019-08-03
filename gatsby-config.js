@@ -16,7 +16,7 @@ module.exports = {
     author: "@yustianray",
     twitterUsername: "@yustian_ray",
     image: "/defaulBcg.jpeg",
-    siteUrl: "https://distracted-hugle-8c9f23.netlify.com",
+    siteUrl: "https://gatsby-backroads-test.netlify.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
