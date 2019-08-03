@@ -11,11 +11,12 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: "BackRoads",
-    description: "Explore awesome worldwide tours & discover what makes each of them unique. Forget your daily routine & say yes to adventure",
+    description:
+      "Explore awesome worldwide tours & discover what makes each of them unique. Forget your daily routine & say yes to adventure",
     author: "@yustianray",
     twitterUsername: "@yustianray",
-    image: "defaulBcg.jpeg",
-    siteUrl: "https://distracted-hugle-8c9f23.netlify.com"
+    image: "/defaulBcg.jpeg",
+    siteUrl: "https://distracted-hugle-8c9f23.netlify.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -23,8 +24,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images/`
-      }
+        path: `${__dirname}/src/images/`,
+      },
     },
     {
       resolve: `gatsby-source-contentful`,
@@ -39,6 +40,6 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-transition-link`,
-    `gatsby-plugin-playground`
+    `gatsby-plugin-playground`,
   ],
 }
